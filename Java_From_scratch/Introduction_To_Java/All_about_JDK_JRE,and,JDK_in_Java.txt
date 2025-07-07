@@ -23,9 +23,9 @@ What is JVM,JRE and JDK? How they work together?
     -It Contains:-
         -JVM
         -Core Java class libraries
-        -COnfiguration files
+        -Configuration files
 
-    -users who just want to run java programs not run them.
+    -users who just want to run java programs not develop them.
 
 -Java Development Kit(JDK):-
     -JDK is a complete package for Java Developers.
