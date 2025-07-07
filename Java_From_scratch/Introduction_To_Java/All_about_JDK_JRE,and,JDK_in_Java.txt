@@ -1,0 +1,47 @@
+What is Java? Where it is used?
+Java is a high-level, object-oriented programming language developed by Sun Microsystem(now owned by Oracle group of companies) in 1995.It is designed to be simple, secure and platform-independent.
+Java follows the principle "Write once, Use anywhere", which means that Java code can run on any device that has the Java Virutal Machine(JVM) installed in it.
+It is widely used for developing:-
+    -Web Application
+    -Mobile Apps
+    -Desktop Software
+    -Enterprise Systems
+    -Games and cloud-based Application
+
+What is JVM,JRE and JDK? How they work together?
+-Java Virtual Machine(JVM):- 
+        -JVM is an engine that run Java bytecode.
+        -It converts .class files(bytecode into machine code specific to the operating system).
+        -Platform Independent:- You can run the same .class file on windows , Mac or Linux - because JVM handles the platform differences.
+        -Kye Responsibilites of JVM:-
+            -Verfies code
+            -Execute code
+            -Handles memory Management(Garbage Collection)
+
+-Java Runtime Enviornment(JRE):-
+    -Java is a software package that provides everything needed to run Java programs.
+    -It Contains:-
+        -JVM
+        -Core Java class libraries
+        -COnfiguration files
+
+    -users who just want to run java programs not run them.
+
+-Java Development Kit(JDK):-
+    -JDK is a complete package for Java Developers.
+    -It contains:-
+        -JRE(so also contains JVM)
+        -Java compliers
+        -Java Tools
+        -Development libraries
+
+How they works together:-
+You write code → .java file
+↓
+JDK compiles it → .class file (bytecode)
+↓
+JRE (with JVM) runs the .class file
+↓
+JVM converts bytecode → native machine code
+↓
+Program runs on your system
